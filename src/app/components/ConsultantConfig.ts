@@ -29,9 +29,9 @@ export const CONSULTANTS: Record<string, ConsultantConfig> = {
     whatsAppLink: 'https://wa.me/639172544567',
     googleFormBaseUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSfsIQlWyEx-if5PZX83J2L3-6XKrCvyVkV8cGW1Scg4rFqr8w/viewform'
   },
-  cylde: {
-    agent: 'Cylde Partisala',
-    name: 'Cylde Partisala',
+  clyde: {
+    agent: 'Clyde Partisala',
+    name: 'Clyde Partisala',
     photo: '/assets/images/cylde.jpg',
     mobile: '+63 917 123 1265',
     messengerLink: 'https://m.me/cylde.partisala',
@@ -39,7 +39,7 @@ export const CONSULTANTS: Record<string, ConsultantConfig> = {
     whatsAppLink: 'https://wa.me/639171234567',
     googleFormBaseUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSfsIQlWyEx-if5PZX83J2L3-6XKrCvyVkV8cGW1Scg4rFqr8w/viewform'
   },
-  firpo: {
+  firfo: {
     agent: 'Firpo Eman',
     name: 'Firpo Eman',
     photo: '/assets/images/firpo.jpg',
