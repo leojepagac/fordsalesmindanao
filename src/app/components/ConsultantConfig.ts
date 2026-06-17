@@ -39,12 +39,12 @@ export const CONSULTANTS: Record<string, ConsultantConfig> = {
     whatsAppLink: 'https://wa.me/639171234567',
     googleFormBaseUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSfsIQlWyEx-if5PZX83J2L3-6XKrCvyVkV8cGW1Scg4rFqr8w/viewform'
   },
-  firfo: {
-    agent: 'Firfo Eman',
-    name: 'Firfo Eman',
-    photo: '/assets/images/firfo.jpg',
+  firpo: {
+    agent: 'Firpo Eman',
+    name: 'Firpo Eman',
+    photo: '/assets/images/firpo.jpg',
     mobile: '+63 917 123 5266',
-    messengerLink: 'https://m.me/firfo.eman',
+    messengerLink: 'https://m.me/firpo.eman',
     viberLink: 'viber://chat?number=%2B639171234567',
     whatsAppLink: 'https://wa.me/639171234567',
     googleFormBaseUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSfsIQlWyEx-if5PZX83J2L3-6XKrCvyVkV8cGW1Scg4rFqr8w/viewform'
