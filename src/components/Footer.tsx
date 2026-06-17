@@ -19,10 +19,10 @@ export default function Footer() {
           {/* Left — Brand + consultant */}
           <div className="space-y-3">
             <div className="flex items-center gap-2.5">
-              <AppLogo size={32} />
+              <AppLogo size={102} />
               <div>
                 <span className="font-display font-bold text-lg text-white tracking-wide block leading-none">Ford</span>
-                <span className="text-accent text-xs font-bold uppercase tracking-widest">{CONSULTANT?.name?.split(' ')?.[0]}</span>
+                <span className="text-white text-xs font-bold uppercase tracking-widest">{CONSULTANT?.name?.split(' ')?.[0]}</span>
               </div>
             </div>
             <p className="text-muted-foreground text-sm max-w-xs leading-relaxed">

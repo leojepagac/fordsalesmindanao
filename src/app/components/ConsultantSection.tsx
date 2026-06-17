@@ -62,7 +62,7 @@ export default function ConsultantSection() {
           <div className="space-y-8">
             <div className="consultant-reveal" style={{ opacity: 0, transform: 'translateY(28px)', transition: 'opacity 0.7s ease, transform 0.7s ease' }}>
               <span className="accent-line mb-4" />
-              <p className="text-sm font-bold uppercase tracking-widest text-accent mb-3">Meet Your Consultant</p>
+              <p className="text-sm font-bold uppercase tracking-widest text-white mb-3">Meet Your Consultant</p>
               <h2 className="text-section-xl font-display font-bold text-white leading-tight">Your Trusted Ford Specialist</h2>
             </div>
 
@@ -73,20 +73,6 @@ export default function ConsultantSection() {
               <p className="text-white/60 text-base leading-relaxed mt-4">
                 With years of experience in the Ford dealership network, {CONSULTANT?.name} is dedicated to making your car-buying journey smooth, transparent, and rewarding. From your first inquiry to driving your new Ford home.
               </p>
-            </div>
-
-            {/* Stats */}
-            <div className="consultant-reveal grid grid-cols-3 gap-4" style={{ opacity: 0, transform: 'translateY(28px)', transition: 'opacity 0.7s ease, transform 0.7s ease' }}>
-              {[
-                { value: '200+', label: 'Vehicles Sold' },
-                { value: '5★', label: 'Customer Rating' },
-                { value: '7 yrs', label: 'Experience' },
-              ].map((stat) => (
-                <div key={stat.label} className="glass-card rounded-xl p-4 text-center">
-                  <p className="text-accent font-display font-bold text-2xl">{stat.value}</p>
-                  <p className="text-white/60 text-xs mt-1">{stat.label}</p>
-                </div>
-              ))}
             </div>
 
             {/* Contact buttons */}

@@ -48,12 +48,12 @@ export default function FinalCTASection() {
       <div className="relative z-10 max-w-4xl mx-auto px-6 md:px-12 text-center">
         <div className="cta-reveal inline-flex items-center gap-2 px-4 py-2 rounded-full mb-8 border border-accent/40 bg-accent/10" style={{ opacity: 0, transform: 'translateY(24px)', transition: 'opacity 0.7s ease, transform 0.7s ease' }}>
           <span className="w-2 h-2 rounded-full bg-accent animate-pulse flex-shrink-0" />
-          <span className="text-accent text-sm font-bold uppercase tracking-widest">Limited Slots Available</span>
+          <span className="text-white text-sm font-bold uppercase tracking-widest">Limited Slots Available</span>
         </div>
         <h2 className="cta-reveal text-section-xl font-display font-bold text-white leading-tight mb-5" style={{ opacity: 0, transform: 'translateY(24px)', transition: 'opacity 0.7s ease, transform 0.7s ease' }}>
           Ready to Own or Test Drive
           <br />
-          <span className="text-accent">Your Ford?</span>
+          <span className="text-white">Your Ford?</span>
         </h2>
         <p className="cta-reveal text-white/75 text-lg leading-relaxed mb-10 max-w-2xl mx-auto" style={{ opacity: 0, transform: 'translateY(24px)', transition: 'opacity 0.7s ease, transform 0.7s ease' }}>
           Request a free quotation or schedule your test drive today. {CONSULTANT?.name} is ready to assist you personally.
@@ -74,7 +74,7 @@ export default function FinalCTASection() {
           </div>
           <div className="text-left">
             <p className="text-white font-semibold text-sm">{CONSULTANT?.name}</p>
-            <p className="text-accent text-xs">Ford Sales Consultant</p>
+            <p className="text-white text-xs">Ford Sales Consultant</p>
           </div>
           <div className="w-px h-8 bg-white/20" />
           <a href={`tel:${CONSULTANT?.mobile?.replace(/\s/g, '')}`} className="text-white hover:text-accent transition-colors font-semibold text-sm min-h-[44px] flex items-center" aria-label={`Call ${CONSULTANT?.name}`}>

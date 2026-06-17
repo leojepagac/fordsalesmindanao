@@ -36,11 +36,11 @@ export default function Header() {
       className={`fixed top-0 left-0 w-full z-50 transition-all duration-400 ${scrolled ? 'glass-nav shadow-xl' : 'bg-transparent'}`}
       role="banner">
       <div className="max-w-7xl mx-auto px-6 md:px-12">
-        <div className="flex items-center justify-between py-4">
+        <div className="flex items-center justify-between py-1">
 
           {/* Logo */}
           <a href="#home" className="flex items-center gap-2.5 group" aria-label="FordLeadPage Home">
-            <AppLogo size={92} className="flex-shrink-0" />
+            <AppLogo size={102} className="flex-shrink-0" />
             <div className="leading-none">
               <span className="text-white text-xs font-bold tracking-widest">{CONSULTANT?.name?.split(' ')?.[0]}</span>
             </div>
