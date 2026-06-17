@@ -77,7 +77,7 @@ export default function HeroSection() {
             </div>
             <div>
               <p className="text-white font-semibold text-sm leading-tight">{CONSULTANT?.name}</p>
-              <p className="text-accent text-xs font-medium">Ford Sales Consultant</p>
+              <p className="text-white text-xs font-medium">Ford Sales Consultant</p>
             </div>
             <div className="w-px h-8 bg-white/20 mx-1" />
             <div className="text-right">
